@@ -1,0 +1,27 @@
+body {
+  background-color: #7CD7E2;
+  margin: 0px;
+  padding: 0px;
+}
+body .main-content {
+  height: 100vh;
+  padding: 20px;
+}
+
+.drop-down select {
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+  padding: 15px;
+  moz-appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.drop-down select option {
+  padding: 15px;
+  transition: all 0.2s ease-in-out;
+}
+.drop-down select :focus {
+  outline: none;
+}
